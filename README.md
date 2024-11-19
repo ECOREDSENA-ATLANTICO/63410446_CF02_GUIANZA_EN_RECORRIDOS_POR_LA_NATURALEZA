@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.0.5**
+# **sena-base-2021 v6.0.5 - Prácticas de guía ecológica en entornos naturales**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecoredsena-atlantico.github.io/63410446_CF02_GUIANZA_EN_RECORRIDOS_POR_LA_NATURALEZA](https://ecoredsena-atlantico.github.io/63410446_CF02_GUIANZA_EN_RECORRIDOS_POR_LA_NATURALEZA)
 
 #
 
