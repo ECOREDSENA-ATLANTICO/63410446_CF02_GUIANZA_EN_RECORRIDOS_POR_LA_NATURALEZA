@@ -349,12 +349,25 @@
                 img(src='@/assets/curso/temas/tema2/img-18.svg' alt='AvatarTop')
             p.text-center momentSSSSSSSSSSSSSSSSSSS
 
+    h4 Recomendaciones para proyectar asertividad:  
+    .row.justify-content-center.align-items-center.mb-5  
+        figure
+          img(src="@/assets/curso/temas/tema2/img-26.png", alt="alt")
+          p Para proyectar seguridad, es importante mirar a los ojos al interlocutor, dar un saludo firme y hablar con buena dicción. Evitar arrinconar a las personas facilita la cooperación y reduce tensiones, ofreciendo una salida constructiva que beneficie a todos. Además, en lugar de recurrir a amenazas, es mejor negociar con calma para lograr credibilidad y colaboración en los objetivos comunes.
 
+    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-27.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Cumplir los compromisos es esencial para ser tomado en serio. Aceptar la derrota con elegancia también es importante, canalizando las emociones de forma constructiva y evitando ser un mal perdedor. La ira genera confusión y transmite debilidad, afectando la credibilidad. Escuchar y considerar los puntos de vista ajenos demuestra comprensión y buena educación, lo cual facilita las relaciones, ya que, como dice el refrán, “la educación no pelea con nadie”.
 
+      .col-lg-4.col-md-8.mb-5
+        figure
+          img(src='@/assets/curso/temas/tema2/img-4.png', alt='')
 
-
-
-
+    .cajon.color-acento-botones.p-4.mb-5.fnd-1
+      p.mb-0 Relacionarse con los demás puede ser complicado por diferencias culturales, sociales y personales, pero es fundamental evitar prejuicios para no perder oportunidades de aprendizaje y conocer personas interesantes. Aunque las primeras impresiones pueden llevar a interpretaciones erróneas, las personas comparten necesidades comunes de afecto, participación y contribución. Al superar las apariencias y conectar desde la empatía, descubrimos que las diferencias no son tantas; una conversación positiva se convierte en una valiosa caricia psicológica.
 
 
 
