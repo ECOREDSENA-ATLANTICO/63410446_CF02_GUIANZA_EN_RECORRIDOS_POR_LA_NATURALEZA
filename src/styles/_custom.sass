@@ -23,14 +23,19 @@
     transform: translateY(0px)
 .banner-interno__fondo
   background-image: url(../assets/curso/portada/fondo-banner.svg)  !important 
+
+.slyder-a__bullets__item 
+  @media (max-width: $bp-max-xs)
+    margin: 0 5px  
 .fnd-1    
   background-color: #FFDFC9 !important
   &-1
     background-color: #DDE5D3 !important
   &-2
     background-color: #F5F5F5
-  &-3
-    background-color: #FAFAFA
+  &-5
+    background-color: #FFF0D6 !important
+
 .fnd-2
   position: relative
   width: 100%
@@ -40,6 +45,8 @@
   background-repeat: no-repeat    
   &-2
     background-image: url(../assets/curso/temas/tema2/fnd-1.png)
+  &-3
+    background-image: url(../assets/curso/temas/tema3/fnd-1.svg)
 
   .slyder-a__btn--sigt, .slyder-a__btn--atrs 
       background-color: #FF964C
@@ -50,6 +57,60 @@
       opacity: 1
   .slyder-a__bullets__item 
       background-color: #fff    
+.fnd-3
+  &-1
+    background-color: #FAFAFA !important    
+    border: 1px solid #87818125
+      
+  &-2
+    position: relative 
+    z-index: 2
+    &::before
+      content: ''
+      position: absolute
+      background-color: #FFF0D6
+      border-radius: 25px
+      z-index: 0
+      right: 0%
+      width: 100%
+      height: 65%
+      padding: 0.5rem
+    img
+      position: relative 
+      z-index: 1
+      margin-right: 0.5rem 
+    .slyder-f__btn 
+      position: relative
+
+  &-3  
+    background-color: #D5DFC8 !important  
+    padding: 1.5rem !important
+    border-radius: 0 0.8rem 0.8rem 0
+  &-4
+    background-color: #FFDFC9
+    padding: 1.5rem !important
+    border-radius: 0 0.8rem 0.8rem 0
+  &-5
+    background-color: #73964A
+    border-radius: 0.8rem 0 0 0.8rem
+    padding-top: 1.5rem
+  &-6
+    background-color: #FF964C
+    border-radius: 0.8rem 0 0 0.8rem
+    padding-top: 1.5rem
+  &-7
+    background-color: #F5F5F5
+    border-radius: 1rem
+    padding: 0.5rem
+
+
+.t-v
+  font-weight: bold
+  writing-mode: vertical-rl
+  color: #fff
+  text-align: center
+  transform: rotate(180deg)   
+  margin-top: 3rem
 
 .t-g    
   color:#8C492A
@@ -142,8 +203,7 @@
 .crd_hover_txt:hover .crd_hover_txt--body 
   transition: all .5s ease-in-out
   transform: translateY(0)
-.crd_hover_txt--img
-  height: 400px
+
 
 .crd_hover_txt .crd_hover_txt--body 
   position: absolute
@@ -157,11 +217,88 @@
     text-align: center
 .crd_hover_txt .crd_hover_txt--body.crd-2
   background-color: #73964A !important
-
+.crd_hover_txt .crd_hover_txt--body.crd-3
+  background-color: #FFCE79 !important
+  p, h4 
+    color: #000000
 @media (min-width: 1200px) and (max-width:1400px) 
   .crd_hover_txt .crd_hover_txt--body p 
       font-size: 0.85em
-
+  .crd_hover_txt--img
+    height: 350px
 .pnt
-  
   border-bottom: 2px dotted #AFAFAF
+
+.fl-box-img1
+  position: relative 
+    
+  &::after
+    content: ''
+    position: absolute
+    z-index: 5
+    background-image: url(../assets/curso/temas/tema3/img-24.svg)
+    background-repeat: no-repeat
+    top: 50% 
+    left: 50% 
+    transform: translate(-50%, -50%)
+    height: 19%
+    width: 9%
+    @media (max-width: 1200px)
+      height: 19%
+      width: 16%
+    @media (max-width: 992px)
+      height: 0%
+      width: 16%      
+
+
+.tar-mov
+  padding: 3rem !important      
+  @media (max-width: 767px)
+    padding: 2rem !important     
+    margin-bottom: 2rem
+    border-radius: 20px !important
+  
+.ter-n
+  
+  &-1
+    .tarjeta-numerada__numero
+      top: 15%
+      background-color: #EDDFAE !important
+      border: 2px solid #fff
+    background-color: #F8F3E0 !important
+    @media (min-width: 1200px)
+      display: flex 
+      align-items: center
+      height: 125px
+  &-2
+    .tarjeta-numerada__numero
+      top: 15%
+      background-color: #A3B7A7 !important
+      border: 2px solid #fff
+    background-color: #E6F1E8 !important
+    border-color: #5C783B !important
+    @media (min-width: 1200px)
+      display: flex 
+      align-items: center
+      height: 125px
+
+.tbl
+  overflow-x: auto
+  min-width: 650px !important
+  width: 100% 
+  thead
+    border-color: #CCA460 !important
+    tr:nth-child(odd), tr:nth-child(odd) // impares
+      background-color: #5C783B
+      color: #fff
+
+    tr:nth-child(even), tr:nth-child(even)  //pares
+      background-color: #9EB682
+  tbody
+    tr:nth-child(odd), tr:nth-child(odd) // impares
+      background-color: #C7D5B6
+    tr:nth-child(even), tr:nth-child(even)  //pares
+      background-color: #E3EADA
+
+.banner-interno__titulo__icono i 
+    color: #ffffff !important

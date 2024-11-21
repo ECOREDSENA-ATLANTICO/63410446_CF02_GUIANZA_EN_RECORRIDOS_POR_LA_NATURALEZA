@@ -120,7 +120,7 @@
             p.mb-0 Estar en un mismo nivel de dificultad.
       
     .row.justify-content-start.align-items-center.mb-4
-      .col-md-5.col-lg-5.col-sm-10
+      .col-md-9.col-lg-6.col-xl-5
         .row.pe-lg-3.fnd-1-3.align-items-center(data-aos="zoom-in")
           .col-auto.pe-2
             img(src="@/assets/curso/temas/tema2/img-3.svg", alt="Icono")
@@ -147,7 +147,7 @@
       p.mb-0 La comunicación le permite al guía de turismo ser útil en los procesos de producción a nivel de empresa y de insumos, como fuente de actividad económica. Las técnicas de comunicación nos permiten interrelacionar turista- atractivo-guía logrando satisfacer la necesidad de recibir y dar información anexa, clara y veraz.         
 
     .row.justify-content-start.align-items-center.mb-4
-      .col-lg-4
+      .col-xl-4.col-lg-5.col-md-7
         .row.pe-lg-3.mb-2.fnd-1-3.align-items-center(data-aos="zoom-in")
           .col-auto.pe-2
             img(src="@/assets/curso/temas/tema2/img-3.svg", alt="Icono")
@@ -161,7 +161,7 @@
           SlyderA(tipo="b")
             .row.justify-content-center.align-items-center
               .col-lg-4.col-md-8
-                figure
+                figure.mb-4
                   img(src='@/assets/curso/temas/tema2/img-5.png', alt='')
               .col-lg-8
                 h4 Comunicación interpersonal
@@ -169,7 +169,7 @@
                 
             .row.justify-content-center.align-items-center
               .col-lg-4.col-md-8
-                figure
+                figure.mb-4
                   img(src='@/assets/curso/temas/tema2/img-6.png', alt='')
               .col-lg-8
                 h4 Comunicación masiva
@@ -177,7 +177,7 @@
 
             .row.justify-content-center.align-items-center
               .col-lg-4.col-md-8
-                figure
+                figure.mb-4
                   img(src='@/assets/curso/temas/tema2/img-7.png', alt='')
               .col-lg-8
                 h4 Comunicación organizacional
@@ -185,7 +185,7 @@
                 
             .row.justify-content-center.align-items-center
               .col-lg-4.col-md-8
-                figure
+                figure.mb-4
                   img(src='@/assets/curso/temas/tema2/img-8.png', alt='')
               .col-lg-8
                 h4 Comunicación formal
@@ -193,7 +193,7 @@
               
             .row.justify-content-center.align-items-center
               .col-lg-4.col-md-8
-                figure
+                figure.mb-4
                   img(src='@/assets/curso/temas/tema2/img-9.png', alt='')
               .col-lg-8
                 h4 Comunicación informal
@@ -202,12 +202,12 @@
     p A pesar de que la comunicación es un proceso inherente al ser humano y esencial para relacionarse con los demás, es fundamental aprender a comunicarse de manera efectiva. Esto se debe a que la comunicación puede contribuir a construir relaciones positivas o, por el contrario, causar daño y destruir tanto a las personas como a las instituciones.
 
     .row.justify-content-start.align-items-center.mb-4
-      .col-lg-4
+      .col-xl-4.col-lg-5.col-md-7
         .row.pe-lg-3.mb-2.fnd-1-3.align-items-center(data-aos="zoom-in")
           .col-auto.pe-2
             img(src="@/assets/curso/temas/tema2/img-3.svg", alt="Icono")
           .col.px-0
-            h4.mb-0.tit-2 Comunicación Asertiva
+            h4.mb-0.tit-2 Comunicación asertiva
 
     figure.mb-5
       img(src='@/assets/curso/temas/tema2/img-10.png', alt='')
@@ -258,11 +258,11 @@
       .col-lg-3.col-md-6
         .row.pe-lg-3.mb-2.fnd-1-4.align-items-center.mb-4(data-aos="zoom-in")
           .col.p-3
-            h4.mb-0.tit-3 Comunicación Asertiva
+            h4.mb-0.tit-3 Conducta agresiva
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-md-8
-        figure
+        figure.mb-4
           img(src="@/assets/curso/temas/tema2/img-15.png", alt="alt")
       .col-lg-8
         p Se define como la defensa de los derechos personales y la expresión de pensamientos, sentimientos y opiniones de manera inapropiada e impositiva, lo que transgrede los derechos de los demás. Esta conducta puede clasificarse en:
@@ -302,58 +302,60 @@
 
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5.fnd-3-2
       .col-lg-4.col-md-8
         figure.mb-4
           img(src="@/assets/curso/temas/tema2/img-17.png", alt="alt")    
       .col-lg-8
         SlyderF.mb-5(columnas="col-lg-6 col-xl-6")
-          .tarjeta.color-acento-botones.p-4.fnd-1-3
+          .tarjeta.color-acento-botones.p-4.fnd-3-1
             .row.justify-content-center.mb-3
-              .col-8
+              .col-5
                 img(src='@/assets/curso/temas/tema2/img-18.svg' alt='AvatarTop')
-            p.text-center momentSSSSSSSSSSSSSSSSSSS
-          .tarjeta.color-acento-botones.p-4
+            p.text-center Respetarse a sí mismo implica tomarse en serio, tener una buena autopercepción y cultivar la autoestima. Respetar a los demás significa reconocer su valor y apreciar sus acciones de manera genuina.
+          .tarjeta.color-acento-botones.p-4.fnd-3-1
             .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/curso/temas/tema2/img-18.svg' alt='AvatarTop')
-            p.text-center momentSSSSSSSSSSSSSSSSSSS
-          .tarjeta.color-acento-botones.p-4
+              .col-5
+                img(src='@/assets/curso/temas/tema2/img-19.svg' alt='AvatarTop')
+            p.text-center Ser directo(a) implica transmitir mensajes de manera clara, sencilla y precisa.
+          .tarjeta.color-acento-botones.p-4.fnd-3-1
             .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/curso/temas/tema2/img-18.svg' alt='AvatarTop')
-            p.text-center momentSSSSSSSSSSSSSSSSSSS
-          .tarjeta.color-acento-botones.p-4
+              .col-5
+                img(src='@/assets/curso/temas/tema2/img-20.svg' alt='AvatarTop')
+            p.text-center Ser honesto(a) significa que las acciones reflejan los sentimientos auténticos. Es preferible mantener la calma y, de manera educada pero firme, expresar la propia opinión sin desestimar la perspectiva de los demás.
+          .tarjeta.color-acento-botones.p-4.fnd-3-1
             .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/curso/temas/tema2/img-18.svg' alt='AvatarTop')
-            p.text-center momentSSSSSSSSSSSSSSSSSSS
-          .tarjeta.color-acento-botones.p-4
+              .col-5
+                img(src='@/assets/curso/temas/tema2/img-21.svg' alt='AvatarTop')
+            p.text-center Ser apropiado(a) implica considerar el momento y el contexto en que se realiza la comunicación.
+          .tarjeta.color-acento-botones.p-4.fnd-3-1
             .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/curso/temas/tema2/img-18.svg' alt='AvatarTop')
-            p.text-center momentSSSSSSSSSSSSSSSSSSS
-          .tarjeta.color-acento-botones.p-4
+              .col-5
+                img(src='@/assets/curso/temas/tema2/img-22.svg' alt='AvatarTop')
+            p.text-center El control emocional consiste en canalizar las emociones para evitar que alcancen niveles de intensidad que generen reacciones ineficaces. Presentar excusas cuando es necesario es valioso; de lo contrario, pierden su validez.
+          .tarjeta.color-acento-botones.p-4.fnd-3-1
             .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/curso/temas/tema2/img-18.svg' alt='AvatarTop')
-            p.text-center momentSSSSSSSSSSSSSSSSSSS
-          .tarjeta.color-acento-botones.p-4
+              .col-5
+                img(src='@/assets/curso/temas/tema2/img-23.svg' alt='AvatarTop')
+            p.text-center Saber escuchar es un proceso activo que requiere atención para comprender lo que los demás desean transmitir. Ignorar o desestimar los comentarios ajenos puede generar ira y resentimiento en las relaciones.
+          .tarjeta.color-acento-botones.p-4.fnd-3-1
             .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/curso/temas/tema2/img-18.svg' alt='AvatarTop')
-            p.text-center momentSSSSSSSSSSSSSSSSSSS
-          .tarjeta.color-acento-botones.p-4
+              .col-5
+                img(src='@/assets/curso/temas/tema2/img-24.svg' alt='AvatarTop')
+            p.text-center Tarjeta 7	Ser positivo(a) implica reconocer e informar a los demás que, al igual que nosotros, también buscan beneficiar y ayudar a los demás en sus acciones.	
+          .tarjeta.color-acento-botones.p-4.fnd-3-1
             .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/curso/temas/tema2/img-18.svg' alt='AvatarTop')
-            p.text-center momentSSSSSSSSSSSSSSSSSSS
+              .col-5
+                img(src='@/assets/curso/temas/tema2/img-25.svg' alt='AvatarTop')
+            p.text-center Planificar los mensajes implica aclarar todos los hechos y puntos con antelación, utilizando notas de referencia si es posible. Esto ahorra tiempo, genera confianza y puede reducir la intimidación en los demás.
 
-    h4 Recomendaciones para proyectar asertividad:  
-    .row.justify-content-center.align-items-center.mb-5  
-        figure
-          img(src="@/assets/curso/temas/tema2/img-26.png", alt="alt")
-          p Para proyectar seguridad, es importante mirar a los ojos al interlocutor, dar un saludo firme y hablar con buena dicción. Evitar arrinconar a las personas facilita la cooperación y reduce tensiones, ofreciendo una salida constructiva que beneficie a todos. Además, en lugar de recurrir a amenazas, es mejor negociar con calma para lograr credibilidad y colaboración en los objetivos comunes.
+    h4.mb-5 Recomendaciones para proyectar asertividad:  
+
+    figure.mb-4
+      img(src="@/assets/curso/temas/tema2/img-26.png", alt="alt")
+
+    p.mb-5 Para proyectar seguridad, es importante mirar a los ojos al interlocutor, dar un saludo firme y hablar con buena dicción. Evitar arrinconar a las personas facilita la cooperación y reduce tensiones, ofreciendo una salida constructiva que beneficie a todos. Además, en lugar de recurrir a amenazas, es mejor negociar con calma para lograr credibilidad y colaboración en los objetivos comunes.
+
 
     .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
@@ -362,9 +364,6 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Cumplir los compromisos es esencial para ser tomado en serio. Aceptar la derrota con elegancia también es importante, canalizando las emociones de forma constructiva y evitando ser un mal perdedor. La ira genera confusión y transmite debilidad, afectando la credibilidad. Escuchar y considerar los puntos de vista ajenos demuestra comprensión y buena educación, lo cual facilita las relaciones, ya que, como dice el refrán, “la educación no pelea con nadie”.
 
-      .col-lg-4.col-md-8.mb-5
-        figure
-          img(src='@/assets/curso/temas/tema2/img-4.png', alt='')
 
     .cajon.color-acento-botones.p-4.mb-5.fnd-1
       p.mb-0 Relacionarse con los demás puede ser complicado por diferencias culturales, sociales y personales, pero es fundamental evitar prejuicios para no perder oportunidades de aprendizaje y conocer personas interesantes. Aunque las primeras impresiones pueden llevar a interpretaciones erróneas, las personas comparten necesidades comunes de afecto, participación y contribución. Al superar las apariencias y conectar desde la empatía, descubrimos que las diferencias no son tantas; una conversación positiva se convierte en una valiosa caricia psicológica.
