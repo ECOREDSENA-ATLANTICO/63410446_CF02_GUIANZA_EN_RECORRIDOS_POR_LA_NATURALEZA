@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img-1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Un sendero es un camino estrecho y generalmente natural, creado por el paso de personas o animales, o diseñado para actividades al aire libre, como caminatas y paseos. Los senderos suelen estar rodeados de naturaleza y pueden atravesar distintos tipos de terreno, como montañas, bosques, ríos o campos. Su propósito es facilitar el acceso a áreas naturales de una manera que minimice el impacto ambiental, permitiendo que las personas disfruten del entorno sin dañarlo.:
+        p.mb-0 Un sendero es un camino estrecho y generalmente natural, creado por el paso de personas o animales, o diseñado para actividades al aire libre, como caminatas y paseos. Los senderos suelen estar rodeados de naturaleza y pueden atravesar distintos tipos de terreno, como montañas, bosques, ríos o campos. Su propósito es facilitar el acceso a áreas naturales de una manera que minimice el impacto ambiental, permitiendo que las personas disfruten del entorno sin dañarlo.
         p Además de sus funciones recreativas, los senderos también pueden tener un valor cultural, educativo o histórico, ya que en ocasiones siguen rutas antiguas o llevan a lugares de interés.
     .row.justify-content-start.align-items-center.mb-4
       .col-xl-5.col-lg-6.col-md-8
@@ -81,7 +81,7 @@
                 figure
                   img(src="@/assets/curso/temas/tema4/img-7.png", alt="alt")
               .crd_hover_txt--body.crd-3
-                h4.mb-3.mb-lg-1 Flores, plantas, fauna
+                h4.mb-3 Flores, plantas, fauna
                 p.mb-0 los valores de la naturaleza están dados por el respeto que nosotros tenemos ante una comunidad totalmente frágil. Se debe caminar con precaución, caminar por los senderos y caminos de herradura para evitar la erosión. No molestar ni destruir la fauna. Arrancar las flores impide su reproducción.
 
        
@@ -146,7 +146,8 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img-10.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Hay que tener en cuenta la topografía del terreno y la duración de la caminata (grado de dificultad), en estos momentos, la preparación y disposición mental del individuo es mejor cuando cuenta con la información necesaria en términos de distancia y altitud.
+        p.mb-0 Hay que tener en cuenta la topografía del terreno y la duración de la caminata (grado de dificultad), en estos momentos, la preparación y disposición mental del individuo es mejor cuando cuenta con la información necesaria en términos de distancia y altitud. 
+
         p.mb-0 En cuanto al estado físico se recomiendan las Técnicas de calentamiento que consiste en un estiramiento y preparación muscular teniendo en cuenta las piernas, tobillos, cadera, espalda y cuello para evitar accidentes o calambres durante la caminata. Así mismo, al terminar se recomienda un estiramiento de los músculos y articulaciones más usados durante el recorrido; este estiramiento garantiza un buen descanso y hace que desaparezcan molestias al día siguiente.
 
     h4 Equipo básico para una caminata
@@ -267,23 +268,23 @@
     h4(data-aos="zoom-in") Ejemplo de preparación de una caminata
     p.mb-5 Preparar una caminata requiere atención a detalles y una buena planificación.
 
-    h4(data-aos="zoom-in") La Preparación de una Caminata Segura y Responsable
+    h4(data-aos="zoom-in") La preparación de una caminata segura y responsable
     p.mb-5 Una caminata exitosa no solo depende de disfrutar del paisaje, sino también de la preparación y la seguridad. A continuación, se presentan los elementos esenciales a considerar antes, durante y después de la caminata.
 
-    h4(data-aos="zoom-in") Equipos de Seguridad
+    h4(data-aos="zoom-in") Equipos de seguridad
     p.mb-5 Los equipos de seguridad son fundamentales para reducir las posibilidades de accidentes y garantizar que, en caso de que se presenten, las víctimas puedan recibir asistencia pronta y oportuna. 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-xl-10
         .tabla-a.color-acento-contenido.mb-5 
           table.tbl
-            caption Fuente: Sena 2024
+            caption Fuente: Sena (2024).
             thead
               tr
                 th(colspan="2") Clases de   Equipos
               tr
                 td Tipo de   Equipo
-                td Descripció                
+                td Descripción              
             tbody
               
               tr
@@ -305,7 +306,6 @@
           img(src='@/assets/curso/temas/tema4/img-16.png', alt='')       
       .col-xl-8
         h4 Los Primeros Auxilios
-        p.mb-0 Concepto
         p Son medidas y cuidados aplicados de forma rápida a una persona hasta que se disponga de tratamiento especializado en un centro asistencial.
 
         h4 Objetivos 
@@ -360,9 +360,12 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-xl-10
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Tabla 1. 
+          span Clasificación de Residuos 
         .tabla-a.color-acento-contenido
           table.tbl
-            caption Fuente: Sena 2024
+            caption Fuente: Sena (2024).
             thead
               tr
                 th(colspan="4") Clasificación de Residuos

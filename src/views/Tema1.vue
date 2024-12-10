@@ -99,8 +99,8 @@
             img(src="@/assets/curso/temas/tema1/check.svg")
           .col.px-0
             p.mb-0 
-              span.t-g Funciones del Guía de Turismo:
-              | Un guía de turismo tiene la responsabilidad de recibir y trasladar a los turistas, conducir grupos y coordinar actividades de animación sociocultural. A  continucion lo invitamos a conocer un poco más sobre estas funciones:
+              span.t-g Funciones del Guía de Turismo: 
+              | un guía de turismo tiene la responsabilidad de recibir y trasladar a los turistas, conducir grupos y coordinar actividades de animación sociocultural. A  continucion lo invitamos a conocer un poco más sobre estas funciones:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-7

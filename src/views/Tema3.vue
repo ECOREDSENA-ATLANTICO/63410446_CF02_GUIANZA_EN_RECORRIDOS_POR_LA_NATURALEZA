@@ -17,7 +17,7 @@
             img(src="@/assets/curso/temas/tema2/img-3.svg", alt="Icono")
           .col.px-0
             h4.mb-0.tit-2 Concepto de grupo
-    p.mb-5 Aunque entender y relacionarse con los demás no es fácil, no es imposible: existen grandes diferencias culturales, sociales, religiosas, políticas de pensamiento, criterios, gustos, costumbres e incluso de lenguaje que pueden llevar a una mala interpretación de la comunicación; por eso es importante ser asertivos, no nos predisponerse ante las situaciones o las personas porque se pueden perder grandes oportunidades de aprender o de conocer gente realmente interesante.  
+    p.mb-5 Aunque entender y relacionarse con los demás no es fácil, no es imposible: existen grandes diferencias culturales, sociales, religiosas, políticas de pensamiento, criterios, gustos, costumbres e incluso de lenguaje que pueden llevar a una mala interpretación de la comunicación; por eso es importante ser asertivos, no es predisponerse ante las situaciones o las personas porque se pueden perder grandes oportunidades de aprender o de conocer gente realmente interesante.  
 
     .row.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-3.col-md-8.mb-4
@@ -476,19 +476,19 @@
           SlyderA(tipo="b")
             .row
               .h4 Actitudes
-              p Conocerse: Un buen líder debe tener un profundo autoconocimiento. Esto significa estar consciente de sus propias reacciones y de las actitudes que adopta comúnmente. Al conocer estos aspectos de sí mismo, podrá intervenir de manera más efectiva y equilibrada, manejando sus emociones y respuestas de manera estratégica.
+              p Conocerse: un buen líder debe tener un profundo autoconocimiento. Esto significa estar consciente de sus propias reacciones y de las actitudes que adopta comúnmente. Al conocer estos aspectos de sí mismo, podrá intervenir de manera más efectiva y equilibrada, manejando sus emociones y respuestas de manera estratégica.
             .row
               .h4 Reacciones
-              p Conocer a los otros: Un líder efectivo es sensible a las actitudes y reacciones de su equipo, observando cuidadosamente las respuestas verbales y no verbales de cada miembro. Esto le permite ajustar su comunicación, reconociendo cuándo una intervención debe ser más sutil o más directa, según las reacciones y silencios de los demás
+              p Conocer a los otros: un líder efectivo es sensible a las actitudes y reacciones de su equipo, observando cuidadosamente las respuestas verbales y no verbales de cada miembro. Esto le permite ajustar su comunicación, reconociendo cuándo una intervención debe ser más sutil o más directa, según las reacciones y silencios de los demás
             .row
               .h4 Rol
-              p Situarse con relación al grupo: Un líder debe ser flexible para adoptar el rol que mejor se adapte a las necesidades de su equipo en el momento presente. Esto significa entender la dinámica del grupo, observar cómo fluye el ambiente y ajustar su estilo de liderazgo de acuerdo con la situación específica.
+              p Situarse con relación al grupo: un líder debe ser flexible para adoptar el rol que mejor se adapte a las necesidades de su equipo en el momento presente. Esto significa entender la dinámica del grupo, observar cómo fluye el ambiente y ajustar su estilo de liderazgo de acuerdo con la situación específica.
             .row
               .h4 Objetivo
-              p Mantener el rumbo: La claridad de propósito es esencial en un líder. Mantener el rumbo significa no perder de vista el objetivo final, asegurándose de que las acciones y decisiones del equipo estén alineadas con este propósito. Esto es clave para avanzar con efectividad y evitar distracciones.
+              p Mantener el rumbo: la claridad de propósito es esencial en un líder. Mantener el rumbo significa no perder de vista el objetivo final, asegurándose de que las acciones y decisiones del equipo estén alineadas con este propósito. Esto es clave para avanzar con efectividad y evitar distracciones.
             .row
               .h4 Condiciones
-              p Dominar las condiciones de desarrollo de la salida del grupo: Un líder debe ser capaz de manejar y prever los factores que pueden influir en el éxito del equipo. Esto incluye anticiparse a posibles obstáculos, adaptarse a cambios en el entorno y asegurar que las condiciones sean favorables para el logro de los objetivos planteados.
+              p Dominar las condiciones de desarrollo de la salida del grupo: un líder debe ser capaz de manejar y prever los factores que pueden influir en el éxito del equipo. Esto incluye anticiparse a posibles obstáculos, adaptarse a cambios en el entorno y asegurar que las condiciones sean favorables para el logro de los objetivos planteados.
       .col-lg-5.col-md-8
         figure
           img(src='@/assets/curso/temas/tema3/img-29.png', alt='')

@@ -175,19 +175,19 @@ export default {
   referencias: [
     {
       referencia:
-        'Castro, J. V., & et al. (1994). Manual de selección de residuos sólidos en la hotelería y uso de algunos productos biodegradables. Bogotá: [Editorial o publicadora].',
+        'Castro, J. V., & et al. (1994). Manual de selección de residuos sólidos en la hotelería y uso de algunos productos biodegradables. Bogotá: [Editorial].',
     },
     {
       referencia:
-        'Corporación Nacional de Turismo - Colombia. (1996). Rutas camineras de Colombia: Boyacá. Bogotá: [Editorial o publicadora].',
+        'Corporación Nacional de Turismo - Colombia. (1996). Rutas camineras de Colombia: Boyacá. Bogotá: [Editorial].',
     },
     {
       referencia:
-        'Corporación Nacional de Turismo - Colombia. (1996). Rutas camineras de Colombia: Cundinamarca. Bogotá: [Editorial o publicadora].',
+        'Corporación Nacional de Turismo - Colombia. (1996). Rutas camineras de Colombia: Cundinamarca. Bogotá: [Editorial].',
     },
     {
       referencia:
-        'Corporación Clorofila Urbana. (2003). Manual de guianza. Bogotá: [Editorial o publicadora].',
+        'Corporación Clorofila Urbana. (2003). Manual de guianza. Bogotá: [Editorial].',
     },
     {
       referencia:
@@ -198,8 +198,7 @@ export default {
         'González, M. Y. (n.d.). Manejo efectivo de un grupo. México: Editorial Trillas.',
     },
     {
-      referencia:
-        'Ley 1558 del 10 de julio de 2012. (n.d.). Ley de Colombia. [URL si está disponible].',
+      referencia: 'Ley 1558 del 10 de julio de 2012. (n.d.). Ley de Colombia.',
     },
     {
       referencia:
@@ -215,11 +214,11 @@ export default {
     },
     {
       referencia:
-        'Servicio Nacional de Aprendizaje SENA. Fundación para la Conservación del Medio Ambiente. (n.d.). Curso para guías turísticos. [URL si está disponible].',
+        'Servicio Nacional de Aprendizaje SENA. Fundación para la Conservación del Medio Ambiente. (n.d.). Curso para guías turísticos.',
     },
     {
       referencia:
-        'Servicio Nacional de Aprendizaje SENA. Centro Nacional de Hotelería, Turismo y Alimentos. (1994). Castro, J. V., & et al. Manual de selección de residuos sólidos en la hotelería y uso de algunos productos biodegradables. Bogotá: [Editorial o publicadora].',
+        'Servicio Nacional de Aprendizaje SENA. Centro Nacional de Hotelería, Turismo y Alimentos. (1994). Castro, J. V., & et al. Manual de selección de residuos sólidos en la hotelería y uso de algunos productos biodegradables. Bogotá: [Editorial].',
     },
   ],
   creditos: [

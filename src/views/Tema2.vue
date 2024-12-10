@@ -15,12 +15,12 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 La comunicación es un proceso mediante el cual se mandan y se reciben mensajes. Las informaciones se transmiten y se reciben a través de signos convenidos de antemano por quienes están en el proceso. Una comunicación es efectiva si logra implicar todos los elementos que la conforman. Sobre todo, si obtiene una respuesta teniendo en cuenta las mínimas condiciones necesarias:
 
-    h4.mb-4.text-center Elemento de la comunicación
+    h4.mb-4.text-center Elementos de la comunicación
 
     ImagenInfografica.color-secundario.mb-5(data-aos="fade-right")
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/tema2/img-2.svg', alt='Elemento de la comunicación')
+          img(src='@/assets/curso/temas/tema2/img-2.svg', alt='Elementos de la comunicación')
 
       .tarjeta.fnd-1-2.p-3(x="11.7%" y="82%" numero="+")
         .h4.mb-2.tit-1 Condiciones
@@ -136,7 +136,7 @@
           p(numero="1" titulo="Comunicación") Informar: la gran carrera progresista del mundo en todos sus campos hace de la información una necesidad de cada día. La comunicación cumple así un papel importante.	
           p(numero="2" titulo="Conocimiento") Formar: el empleo de la comunicación como medio de formación es palpable en todos los campos del conocimiento humano.	
           p(numero="3" titulo="Idea") Dar Imagen: la comunicación se da y se percibe como una empresa, una compañía, una idea. Es una forma muy eficaz de publicidad y buenas relaciones públicas para una empresa.	
-          p(numero="4" titulo="Opinión") Difundir: La comunicación permite esparcir no sólo la propia opinión, sino las ideas necesarias para lograr un objetivo determinado. Se difunden las ventajas de un producto, las bondades de una administración, la amabilidad de una empresa o su voluntad de servicio.	
+          p(numero="4" titulo="Opinión") Difundir: la comunicación permite esparcir no sólo la propia opinión, sino las ideas necesarias para lograr un objetivo determinado. Se difunden las ventajas de un producto, las bondades de una administración, la amabilidad de una empresa o su voluntad de servicio.	
           p(numero="5" titulo="Decisión") Persuadir: convencer a los demás para que se ejecute o no una acción, para que se compre o no un producto, para que se tome una decisión; es una misión necesaria en nuestro medio. Una buena comunicación debe servir para convencer a los demás y moverlos a la acción.	
           p(numero="6" titulo="Interés") Divertir: en la comunicación debe haber algo de interés para dar o recibir. A veces conviene recurrir a elementos agradables, visibles y jocosos con el objetivo de influir con mayor facilidad en los demás. La comunicación es, también, un vehículo de la alegría, el descanso, el solaz y la amabilidad.
       .col-lg-4.col-md-8.mb-5
