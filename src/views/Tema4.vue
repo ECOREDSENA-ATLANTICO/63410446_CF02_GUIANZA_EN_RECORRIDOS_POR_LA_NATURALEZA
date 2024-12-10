@@ -12,8 +12,8 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img-1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Un sendero es un camino estrecho y generalmente natural, creado por el paso de personas o animales, o diseñado para actividades al aire libre, como caminatas y paseos. Los senderos suelen estar rodeados de naturaleza y pueden atravesar distintos tipos de terreno, como montañas, bosques, ríos o campos. Su propósito es facilitar el acceso a áreas naturales de una manera que minimice el impacto ambiental, permitiendo que las personas disfruten del entorno sin dañarlo.
-        p Además de sus funciones recreativas, los senderos también pueden tener un valor cultural, educativo o histórico, ya que en ocasiones siguen rutas antiguas o llevan a lugares de interés.
+        p.mb-0 Un sendero es un camino estrecho y generalmente natural, creado por el paso de personas o animales, o diseñado para actividades al aire libre, como caminatas y paseos. Los senderos suelen estar rodeados de naturaleza y pueden atravesar distintos tipos de terreno, como montañas, bosques, ríos o campos. Su propósito es facilitar el acceso a áreas naturales de una manera que minimice el impacto ambiental, permitiendo que las personas disfruten del entorno sin dañarlo.  
+        p  Además de sus funciones recreativas, los senderos también pueden tener un valor cultural, educativo o histórico, ya que en ocasiones siguen rutas antiguas o llevan a lugares de interés.
     .row.justify-content-start.align-items-center.mb-4
       .col-xl-5.col-lg-6.col-md-8
         .row.pe-lg-3.mb-2.fnd-1-3.align-items-center(data-aos="zoom-in")
