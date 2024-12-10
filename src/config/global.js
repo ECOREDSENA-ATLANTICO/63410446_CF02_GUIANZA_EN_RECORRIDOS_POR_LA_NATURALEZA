@@ -175,19 +175,19 @@ export default {
   referencias: [
     {
       referencia:
-        'Castro, J. V., & et al. (1994). Manual de selección de residuos sólidos en la hotelería y uso de algunos productos biodegradables. Bogotá: [Editorial].',
+        'Castro, J. V., & et al. (1994). Manual de selección de residuos sólidos en la hotelería y uso de algunos productos biodegradables.',
     },
     {
       referencia:
-        'Corporación Nacional de Turismo - Colombia. (1996). Rutas camineras de Colombia: Boyacá. Bogotá: [Editorial].',
+        'Corporación Nacional de Turismo - Colombia. (1996). Rutas camineras de Colombia: Boyacá. Bogotá.',
     },
     {
       referencia:
-        'Corporación Nacional de Turismo - Colombia. (1996). Rutas camineras de Colombia: Cundinamarca. Bogotá: [Editorial].',
+        'Corporación Nacional de Turismo - Colombia. (1996). Rutas camineras de Colombia: Cundinamarca. Bogotá.',
     },
     {
       referencia:
-        'Corporación Clorofila Urbana. (2003). Manual de guianza. Bogotá: [Editorial].',
+        'Corporación Clorofila Urbana. (2003). Manual de guianza. Bogotá.',
     },
     {
       referencia:
@@ -218,7 +218,7 @@ export default {
     },
     {
       referencia:
-        'Servicio Nacional de Aprendizaje SENA. Centro Nacional de Hotelería, Turismo y Alimentos. (1994). Castro, J. V., & et al. Manual de selección de residuos sólidos en la hotelería y uso de algunos productos biodegradables. Bogotá: [Editorial].',
+        'Servicio Nacional de Aprendizaje SENA. Centro Nacional de Hotelería, Turismo y Alimentos. (1994). Castro, J. V., & et al. Manual de selección de residuos sólidos en la hotelería y uso de algunos productos biodegradables. Bogotá.',
     },
   ],
   creditos: [
