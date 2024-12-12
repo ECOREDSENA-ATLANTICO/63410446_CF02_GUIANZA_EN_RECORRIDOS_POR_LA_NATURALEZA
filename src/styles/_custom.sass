@@ -23,7 +23,8 @@
     transform: translateY(0px)
 .banner-interno__fondo
   background-image: url(../assets/curso/portada/fondo-banner.svg)  !important 
-
+.banner-principal .tarjeta 
+    background-color: #FFCE79
 .slyder-a__bullets__item 
   @media (max-width: $bp-max-xs)
     margin: 0 5px  
@@ -47,7 +48,8 @@
     background-image: url(../assets/curso/temas/tema2/fnd-1.png)
   &-3
     background-image: url(../assets/curso/temas/tema3/fnd-1.svg)
-
+  &-4
+    background-image: url(../assets/curso/temas/tema1/fnd-1.svg)
   .slyder-a__btn--sigt, .slyder-a__btn--atrs 
       background-color: #FF964C
       
@@ -266,10 +268,15 @@
       background-color: #EDDFAE !important
       border: 2px solid #fff
     background-color: #F8F3E0 !important
+    height: 96px
     @media (min-width: 1200px)
       display: flex 
       align-items: center
       height: 125px
+    @media (max-width: 992px)
+      height: 110px
+    @media (max-width: 768px)
+      height: 90px      
   &-2
     .tarjeta-numerada__numero
       top: 15%
@@ -277,11 +284,15 @@
       border: 2px solid #fff
     background-color: #E6F1E8 !important
     border-color: #5C783B !important
+    height: 96px
     @media (min-width: 1200px)
       display: flex 
       align-items: center
       height: 125px
-
+    @media (max-width: 992px)
+      height: 110px      
+    @media (max-width: 768px)
+      height: 90px      
 .tbl
   overflow-x: auto
   min-width: 650px !important
@@ -299,6 +310,13 @@
       background-color: #C7D5B6
     tr:nth-child(even), tr:nth-child(even)  //pares
       background-color: #E3EADA
-
+.td20
+  width: 30%
+.td30
+  width: 70%    
 .banner-interno__titulo__icono i 
     color: #ffffff !important
+
+.tga-4
+  @media (min-width:762px) and (max-width: 992px)
+    height: 250px      

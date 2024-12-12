@@ -55,7 +55,7 @@
       figure
         img(src="@/assets/curso/temas/tema4/img-4.png", alt="alt")
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5.fnd-2.fnd-2-4
       .col-xl-10
 
         .row.justify-content-center
@@ -237,7 +237,7 @@
 
     h4.mb-5(data-aos="zoom-in") Equipo no indispensable para los participantes
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5.fnd-2.fnd-2-4
       .col-xl-10
         .row.justify-content-center
           .col-xl-4.col-lg-4.col-md-9.col-11.mb-4.mb-xl-0
@@ -283,8 +283,8 @@
               tr
                 th(colspan="2") Clases de   Equipos
               tr
-                td Tipo de   Equipo
-                td Descripción              
+                td.td20 Tipo de   Equipo
+                td.td30 Descripción              
             tbody
               
               tr

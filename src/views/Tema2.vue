@@ -233,7 +233,7 @@
               img(src="@/assets/curso/temas/tema2/img-12.png", alt="alt")
           .crd_hover_txt--body.crd-2
             h4.mb-3 Conducta pasiva
-            p.mb-0 La conducta pasiva, según Marsellach, implica la transgresión de los propios derechos al no poder expresar abiertamente sentimientos, pensamientos y opiniones. A menudo, esto se manifiesta con disculpas y falta de confianza, buscando apaciguar a los demás y evitar conflictos, incluso a costa del propio bienestar y la autenticidad.
+            p.mb-0.text-small La conducta pasiva, según Marsellach, implica la transgresión de los propios derechos al no poder expresar abiertamente sentimientos, pensamientos y opiniones. A menudo, esto se manifiesta con disculpas y falta de confianza, buscando apaciguar a los demás y evitar conflictos, incluso a costa del propio bienestar y la autenticidad.
 
       .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
@@ -242,7 +242,7 @@
               img(src="@/assets/curso/temas/tema2/img-13.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 Persona no asertiva
-            p.mb-0 La falta de asertividad puede generar consecuencias negativas para quien la practica y para quienes interactúan con ella. La comunicación poco clara dificulta la satisfacción de necesidades y la comprensión de opiniones, lo que lleva a sentimientos de incomprensión y manipulación. Esto puede resultar en hostilidad e irritabilidad, dado que todos tienen un límite para manejar frustraciones.
+            p.mb-0.text-small La falta de asertividad puede generar consecuencias negativas para quien la practica y para quienes interactúan con ella. La comunicación poco clara dificulta la satisfacción de necesidades y la comprensión de opiniones, lo que lleva a sentimientos de incomprensión y manipulación. Esto puede resultar en hostilidad e irritabilidad, dado que todos tienen un límite para manejar frustraciones.
       .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt.crd-2(data-aos="flip-left")
           .crd_hover_txt--img
@@ -250,7 +250,7 @@
               img(src="@/assets/curso/temas/tema2/img-14.png", alt="alt")
           .crd_hover_txt--body.crd-2
             h4.mb-3 Conducta no asertiva
-            p.mb-0 Conducta no asertiva	Quien recibe una conducta no asertiva puede experimentar diversas consecuencias negativas. Constantemente descifrar lo que la otra persona intenta comunicar o tratar de leer sus pensamientos resulta ser una tarea difícil y abrumadora. Esto puede dar lugar a sentimientos de frustración, molestia e incluso ira hacia quien se comporta de manera pasiva.	 
+            p.mb-0.text-small Conducta no asertiva	Quien recibe una conducta no asertiva puede experimentar diversas consecuencias negativas. Constantemente descifrar lo que la otra persona intenta comunicar o tratar de leer sus pensamientos resulta ser una tarea difícil y abrumadora. Esto puede dar lugar a sentimientos de frustración, molestia e incluso ira hacia quien se comporta de manera pasiva.	 
 
 
 
@@ -307,7 +307,7 @@
         figure.mb-4
           img(src="@/assets/curso/temas/tema2/img-17.png", alt="alt")    
       .col-lg-8
-        SlyderF.mb-5(columnas="col-lg-6 col-xl-6")
+        SlyderF.mb-5(columnas="col-lg-6 col-xl-6 col-md-6")
           .tarjeta.color-acento-botones.p-4.fnd-3-1
             .row.justify-content-center.mb-3
               .col-5

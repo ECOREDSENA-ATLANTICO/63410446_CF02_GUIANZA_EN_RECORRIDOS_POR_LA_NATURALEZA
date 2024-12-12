@@ -7,7 +7,7 @@
         span 1
       h1 Perfil del guía turístico
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-5.fnd-2.fnd-2-4(data-aos="fade-left")
       .col-lg-4.col-md-8
         figure.mb-4
           img(src='@/assets/curso/temas/tema1/img-1.png', alt='')
@@ -63,7 +63,7 @@
           | un buen guía de turismo posee cualidades excepcionales que le permiten brindar una experiencia enriquecedora y segura. A continuación, se detallan las cualidades esenciales que debe tener para desempeñar este rol con éxito:
 
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5.fnd-2.fnd-2-4(data-aos="fade-right")
       .col-lg-8
         LineaTiempoD.color-acento-contenido.mb-4
           p(numero="1" titulo="Versátil") De espíritu versátil y vital, con ansias de aprendizaje y una actitud descomplicada, sin importar la edad.
@@ -102,7 +102,7 @@
               span.t-g Funciones del Guía de Turismo: 
               | un guía de turismo tiene la responsabilidad de recibir y trasladar a los turistas, conducir grupos y coordinar actividades de animación sociocultural. A  continucion lo invitamos a conocer un poco más sobre estas funciones:
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5.fnd-2.fnd-2-4(data-aos="fade-right")
       .col-lg-7
         .tarjeta.p-4.mb-5.px-xl-5.px-mb-2.fnd-2
           SlyderA(tipo="b")

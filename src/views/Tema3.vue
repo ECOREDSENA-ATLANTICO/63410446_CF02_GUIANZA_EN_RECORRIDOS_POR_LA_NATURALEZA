@@ -19,7 +19,7 @@
             h4.mb-0.tit-2 Concepto de grupo
     p.mb-5 Aunque entender y relacionarse con los demás no es fácil, no es imposible: existen grandes diferencias culturales, sociales, religiosas, políticas de pensamiento, criterios, gustos, costumbres e incluso de lenguaje que pueden llevar a una mala interpretación de la comunicación; por eso es importante ser asertivos, no es predisponerse ante las situaciones o las personas porque se pueden perder grandes oportunidades de aprender o de conocer gente realmente interesante.  
 
-    .row.justify-content-center.align-items-center(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.fnd-2.fnd-2-4(data-aos="fade-left")
       .col-lg-3.col-md-8.mb-4
         figure
           img(src='@/assets/curso/temas/tema3/img-2.png', alt='')
@@ -27,7 +27,7 @@
         .cajon.color-acento-botones.p-4.mb-4.fnd-1
           p.mb-0 Muchas veces la primera impresión falla y se fantasea negativamente respecto a los demás. A pesar de todas estas diferencias las personas tienen mucho más en común de lo que se suele pensar, tal como la necesidad de afiliación y cariño, de participación y de contribución. Cuando se mira más allá del exterior y de las apariencias, no quedan tantas diferencias después de todo. Una conversación amena y positiva es de las mejores caricias psicológicas para el ser humano.
 
-    .row.justify-content-center.align-items-center.mb-2
+    .row.justify-content-center.align-items-center.mb-2.fnd-2.fnd-2-4
       .col-lg-8
         .row.justify-content-start.align-items-center
           .col-lg-7.col-md-6
@@ -57,7 +57,7 @@
       .col-xl-8
           .row.fnd-3-7
             .col-md-6.px-4.mb-5
-              .row.justify-content-center.align-items-stretch
+              .row.tga-4
                 .col-2.fnd-3-5
                   h4.t-v GRUPO
                 .col-10.fnd-3-3     
@@ -88,7 +88,7 @@
                       p.mb-0 Gestión tradicional.
 
             .col-md-6.px-4.mb-3
-              .row
+              .row.tga-4
                 .col-2.fnd-3-6  
                   h4.t-v EQUIPO
                 .col-10.fnd-3-4
@@ -252,7 +252,7 @@
         figure.mb-4
           img(src="@/assets/curso/temas/tema3/img-13.png", alt="alt")    
       .col-lg-8
-        SlyderF.mb-5(columnas="col-lg-6 col-xl-6")
+        SlyderF.mb-5(columnas="col-lg-6 col-xl-6 col-md-6")
           .tarjeta.color-acento-botones.p-4.fnd-3-1
             .row.justify-content-center.mb-3
               .col-8
@@ -361,7 +361,7 @@
     
 
 
-    .tarjeta--container.row.mb-5.fl-box-img
+    .tarjeta--container.row.mb-5.fl-box-img1
       .col-md.tarjeta.color-secundario.tar-mov
         .row.justify-content-center.mb-4
           .col-6
@@ -438,8 +438,8 @@
     h4(data-aos="zoom-in") Liderazgo
     p.mb-5 El liderazgo es la capacidad de un individuo o grupo de personas para influir y guiar a un grupo de trabajo, organización o sociedad. Un líder es aquel que tiene las habilidades para motivar a sus seguidores y hacer que trabajen con entusiasmo para alcanzar sus objetivos.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
+    .row.justify-content-center.align-items-center.mb-5.fnd-2.fnd-2-4
+      .col-lg-10
         .row.justify-content-center
           .col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
             .crd_hover_txt(data-aos="flip-left")
@@ -448,7 +448,7 @@
                   img(src="@/assets/curso/temas/tema3/img-26.png", alt="alt")
               .crd_hover_txt--body
                 h4.mb-3 Líder formal
-                p.mb-0 ha sido nombrado por alguna autoridad y se le ha otorgado de alguna forma el derecho de recompensar y castigar.
+                p.mb-0.text-small Ha sido nombrado por alguna autoridad y se le ha otorgado de alguna forma el derecho de recompensar y castigar.
           .col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
             .crd_hover_txt.crd-2(data-aos="flip-left")
               .crd_hover_txt--img
@@ -456,7 +456,7 @@
                   img(src="@/assets/curso/temas/tema3/img-27.png", alt="alt")
               .crd_hover_txt--body.crd-2
                 h4.mb-3 Líder informal
-                p.mb-0 le confieren la autoridad los mismos miembros del grupo. El grupo espera que esta persona actúe como portavoz de sus deseos y necesidades, les ayude, les resuelva conflictos o problemas y comparta con ellos sus valores, entre otras cosas.
+                p.mb-0.text-small Le confieren la autoridad los mismos miembros del grupo. El grupo espera que esta persona actúe como portavoz de sus deseos y necesidades, les ayude, les resuelva conflictos o problemas y comparta con ellos sus valores, entre otras cosas.
     
     .cajon.color-acento-botones.p-4.mb-5.fnd-1
       p.mb-0 La posición del líder formal prácticamente no cambia, mientras que la posición del líder informal sí, dependiendo de la situación que viva el grupo. Si la persona que es el líder, en un momento determinado, ante una situación específica, muestra no tener la capacidad para manejarla, surgirá como consecuencia un nuevo líder.
@@ -470,7 +470,7 @@
         p.mb-0 El líder del grupo, (en este caso nos referimos al guía o coordinador de este) es por decirlo de alguna manera, el “guardián” del logro o los objetivos a alcanzar por el grupo. Trabajo contrario sería el de aquel coordinador que muestre conductas de no directividad, que llevan al grupo a experimentar un clima de inseguridad y a desarrollar una serie de conductas de dependencia que perjudican el proceso y la eficiencia del grupo.
     p.mb-5 En el liderazgo, el éxito de un equipo no solo depende de las habilidades técnicas o el conocimiento de su líder, sino de una serie de comportamientos y actitudes que le permiten dirigir de manera efectiva. Un líder eficaz es alguien que se conoce a sí mismo, sabe entender a los demás y es capaz de adaptarse según el contexto. Para mantener el rumbo y cumplir con los objetivos propuestos, debe ser consciente de su rol en el grupo y de las condiciones que afectan su desarrollo. Esta capacidad de adaptación y percepción es fundamental para guiar al equipo con claridad, garantizando que cada paso esté alineado con el propósito y la meta final. A continuación, exploramos cinco elementos clave que componen el comportamiento de un líder y su impacto en el éxito grupal: autoconocimiento, observación de los otros, ajuste del rol, enfoque en el objetivo y dominio de las condiciones del entorno. 
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5.fnd-2.fnd-2-4(data-aos="fade-right")
       .col-lg-7
         .tarjeta.p-4.mb-5.px-xl-5.px-mb-2.fnd-2
           SlyderA(tipo="b")
