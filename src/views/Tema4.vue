@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.fnd4.fnd
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
@@ -55,7 +55,7 @@
       figure
         img(src="@/assets/curso/temas/tema4/img-4.png", alt="alt")
 
-    .row.justify-content-center.align-items-center.mb-5.fnd-2.fnd-2-4
+    .row.justify-content-center.align-items-center.mb-5
       .col-xl-10
 
         .row.justify-content-center
@@ -237,7 +237,7 @@
 
     h4.mb-5(data-aos="zoom-in") Equipo no indispensable para los participantes
 
-    .row.justify-content-center.align-items-center.mb-5.fnd-2.fnd-2-4
+    .row.justify-content-center.align-items-center.mb-5
       .col-xl-10
         .row.justify-content-center
           .col-xl-4.col-lg-4.col-md-9.col-11.mb-4.mb-xl-0

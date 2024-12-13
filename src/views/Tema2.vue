@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.fnd2.fnd
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
@@ -20,7 +20,7 @@
     ImagenInfografica.color-secundario.mb-5(data-aos="fade-right")
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/tema2/img-2.svg', alt='Elementos de la comunicación')
+          img(src='@/assets/curso/temas/tema2/img-2.svg', alt='Muestra infografía interactiva, donde está el proceso de los elementos de comunicación, el emisor, el receptor, mensaje y receptor.')
 
       .tarjeta.fnd-1-2.p-3(x="11.7%" y="82%" numero="+")
         .h4.mb-2.tit-1 Condiciones

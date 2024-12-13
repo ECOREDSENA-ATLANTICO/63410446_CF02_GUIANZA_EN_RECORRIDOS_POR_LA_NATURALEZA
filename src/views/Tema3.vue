@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.fnd3.fnd
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
@@ -19,7 +19,7 @@
             h4.mb-0.tit-2 Concepto de grupo
     p.mb-5 Aunque entender y relacionarse con los demás no es fácil, no es imposible: existen grandes diferencias culturales, sociales, religiosas, políticas de pensamiento, criterios, gustos, costumbres e incluso de lenguaje que pueden llevar a una mala interpretación de la comunicación; por eso es importante ser asertivos, no es predisponerse ante las situaciones o las personas porque se pueden perder grandes oportunidades de aprender o de conocer gente realmente interesante.  
 
-    .row.justify-content-center.align-items-center.fnd-2.fnd-2-4(data-aos="fade-left")
+    .row.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-3.col-md-8.mb-4
         figure
           img(src='@/assets/curso/temas/tema3/img-2.png', alt='')
@@ -27,7 +27,7 @@
         .cajon.color-acento-botones.p-4.mb-4.fnd-1
           p.mb-0 Muchas veces la primera impresión falla y se fantasea negativamente respecto a los demás. A pesar de todas estas diferencias las personas tienen mucho más en común de lo que se suele pensar, tal como la necesidad de afiliación y cariño, de participación y de contribución. Cuando se mira más allá del exterior y de las apariencias, no quedan tantas diferencias después de todo. Una conversación amena y positiva es de las mejores caricias psicológicas para el ser humano.
 
-    .row.justify-content-center.align-items-center.mb-2.fnd-2.fnd-2-4
+    .row.justify-content-center.align-items-center.mb-2
       .col-lg-8
         .row.justify-content-start.align-items-center
           .col-lg-7.col-md-6
@@ -394,42 +394,42 @@
         p Por otro lado, si la tarea requiere precisión y control (mayor grado de complejidad), los resultados con respecto a la competitividad son menos predecibles; desde luego las conductas de los participantes en este sentido dependerán de las experiencias individuales previas con respecto a situaciones de trabajo bajo.
         p Aquel grupo que pretenda considerarse efectivo deberá observar las siguientes características, que son el resultado de la revisión de las propuestas de diferentes autores. Algunos las mencionarán con un nombre, otros con otro, pero al final tratan de decirnos que, en un grupo efectivo, las relaciones interpersonales son de la siguiente manera:
  
-    .row.mb-5
-      .col-md-6.col-xl-4.mb-4
+    .row.mb-5.align-items-center
+      .col-lg-6.col-xl-4.mb-4
         .tarjeta-numerada.color-acento-contenido.py-4.px-5.ter-n-1
           .tarjeta-numerada__numero
             .h2 1
           p.mb-0
             b Los miembros se comprenden y se respetan entre sí.
 
-      .col-md-6.col-xl-4.mb-4
+      .col-lg-6.col-xl-4.mb-4
         .tarjeta-numerada.color-acento-contenido.py-4.px-5.ter-n-2
           .tarjeta-numerada__numero
             .h2 2
           p.mb-0
             b La comunicación es abierta.       
-      .col-md-6.col-xl-4.mb-4
+      .col-lg-6.col-xl-4.mb-4
         .tarjeta-numerada.color-acento-contenido.py-4.px-5.ter-n-1
           .tarjeta-numerada__numero
             .h2 3
           p.mb-0
             b Los integrantes se responsabilizan de su aprendizaje y conducta 
 
-      .col-md-6.col-xl-4.mb-4
+      .col-lg-6.col-xl-4.mb-4
         .tarjeta-numerada.color-acento-contenido.py-4.px-5.ter-n-2
           .tarjeta-numerada__numero
             .h2 4
           p.mb-0
             b Los miembros cooperan.
 
-      .col-md-6.col-xl-4.mb-4
+      .col-lg-6.col-xl-4.mb-4
         .tarjeta-numerada.color-acento-contenido.py-4.px-5.ter-n-1
           .tarjeta-numerada__numero
             .h2 5
           p.mb-0 
             b El grupo establece lineamientos para tomar decisiones.    
-      .col-md-6.col-xl-4.mb-4
-        .tarjeta-numerada.color-acento-contenido.py-4.px-5.ter-n-2
+      .col-lg-6.col-xl-4.mb-4
+        .tarjeta-numerada.color-acento-contenido.py-lg-2.py-4.px-5.ter-n-2
           .tarjeta-numerada__numero
             .h2 6
           p.mb-0 
@@ -438,7 +438,7 @@
     h4(data-aos="zoom-in") Liderazgo
     p.mb-5 El liderazgo es la capacidad de un individuo o grupo de personas para influir y guiar a un grupo de trabajo, organización o sociedad. Un líder es aquel que tiene las habilidades para motivar a sus seguidores y hacer que trabajen con entusiasmo para alcanzar sus objetivos.
 
-    .row.justify-content-center.align-items-center.mb-5.fnd-2.fnd-2-4
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .row.justify-content-center
           .col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
@@ -470,7 +470,7 @@
         p.mb-0 El líder del grupo, (en este caso nos referimos al guía o coordinador de este) es por decirlo de alguna manera, el “guardián” del logro o los objetivos a alcanzar por el grupo. Trabajo contrario sería el de aquel coordinador que muestre conductas de no directividad, que llevan al grupo a experimentar un clima de inseguridad y a desarrollar una serie de conductas de dependencia que perjudican el proceso y la eficiencia del grupo.
     p.mb-5 En el liderazgo, el éxito de un equipo no solo depende de las habilidades técnicas o el conocimiento de su líder, sino de una serie de comportamientos y actitudes que le permiten dirigir de manera efectiva. Un líder eficaz es alguien que se conoce a sí mismo, sabe entender a los demás y es capaz de adaptarse según el contexto. Para mantener el rumbo y cumplir con los objetivos propuestos, debe ser consciente de su rol en el grupo y de las condiciones que afectan su desarrollo. Esta capacidad de adaptación y percepción es fundamental para guiar al equipo con claridad, garantizando que cada paso esté alineado con el propósito y la meta final. A continuación, exploramos cinco elementos clave que componen el comportamiento de un líder y su impacto en el éxito grupal: autoconocimiento, observación de los otros, ajuste del rol, enfoque en el objetivo y dominio de las condiciones del entorno. 
 
-    .row.justify-content-center.align-items-center.mb-5.fnd-2.fnd-2-4(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-7
         .tarjeta.p-4.mb-5.px-xl-5.px-mb-2.fnd-2
           SlyderA(tipo="b")

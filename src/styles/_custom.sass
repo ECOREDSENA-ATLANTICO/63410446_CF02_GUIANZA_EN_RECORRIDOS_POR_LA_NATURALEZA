@@ -28,6 +28,23 @@
 .slyder-a__bullets__item 
   @media (max-width: $bp-max-xs)
     margin: 0 5px  
+.fnd
+  position: relative
+  width: 100%
+  background-size: cover
+  background-position: 0 0
+  background-repeat: no-repeat
+  &1
+    background-image: url(../assets/curso/temas/tema1/fnd.svg)
+  &2
+    background-image: url(../assets/curso/temas/tema2/fnd.svg)
+  &3
+    background-image: url(../assets/curso/temas/tema3/fnd.svg)
+  &4
+    background-image: url(../assets/curso/temas/tema4/fnd.svg)
+
+
+
 .fnd-1    
   background-color: #FFDFC9 !important
   &-1
@@ -268,15 +285,15 @@
       background-color: #EDDFAE !important
       border: 2px solid #fff
     background-color: #F8F3E0 !important
-    height: 96px
+    display: grid
+    align-items: center
     @media (min-width: 1200px)
       display: flex 
       align-items: center
       height: 125px
-    @media (max-width: 992px)
+    @media (min-width: 992px)
       height: 110px
-    @media (max-width: 768px)
-      height: 90px      
+
   &-2
     .tarjeta-numerada__numero
       top: 15%
@@ -284,15 +301,16 @@
       border: 2px solid #fff
     background-color: #E6F1E8 !important
     border-color: #5C783B !important
-    height: 96px
+    display: grid
+    align-items: center
+
     @media (min-width: 1200px)
       display: flex 
       align-items: center
       height: 125px
-    @media (max-width: 992px)
+    @media (min-width: 992px)
       height: 110px      
-    @media (max-width: 768px)
-      height: 90px      
+    
 .tbl
   overflow-x: auto
   min-width: 650px !important
